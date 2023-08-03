@@ -6,9 +6,11 @@ specifiers:
   '@types/node': 20.4.5
   '@types/react': 18.2.17
   '@types/react-dom': 18.2.7
+  '@types/uuid': ^9.0.2
   ai: ^2.1.27
   autoprefixer: 10.4.14
   class-variance-authority: ^0.7.0
+  classnames: ^2.3.2
   clsx: ^2.0.0
   eslint: 8.45.0
   eslint-config-next: 13.4.12
@@ -22,6 +24,7 @@ specifiers:
   tailwindcss: 3.3.3
   tailwindcss-animate: ^1.0.6
   typescript: 5.1.6
+  uuid: ^9.0.0
 
 dependencies:
   '@radix-ui/react-avatar': 1.0.3_daadhm4ohxobgnrt365as5bhny
@@ -32,6 +35,7 @@ dependencies:
   ai: 2.1.27_react@18.2.0
   autoprefixer: 10.4.14_postcss@8.4.27
   class-variance-authority: 0.7.0
+  classnames: 2.3.2
   clsx: 2.0.0
   eslint: 8.45.0
   eslint-config-next: 13.4.12_ko3fmmbeyij36muomfgt2u76xu
@@ -45,6 +49,10 @@ dependencies:
   tailwindcss: 3.3.3
   tailwindcss-animate: 1.0.6_tailwindcss@3.3.3
   typescript: 5.1.6
+  uuid: 9.0.0
+
+devDependencies:
+  '@types/uuid': 9.0.2
 
 packages:
 
@@ -436,6 +444,10 @@ packages:
     resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
     dev: false
 
+  /@types/uuid/9.0.2:
+    resolution: {integrity: sha512-kNnC1GFBLuhImSnV7w4njQkUiJi0ZXUycu1rUaouPqiKlXkh77JKgdRnTAp1x5eBwcIwbtI+3otwzuIDEuDoxQ==}
+    dev: true
+
   /@typescript-eslint/parser/5.62.0_ko3fmmbeyij36muomfgt2u76xu:
     resolution: {integrity: sha512-VlJEV0fOQ7BExOsHYAGrgbEiZoi8D+Bl2+f6V2RrXerRSylnp+ZBHmPvaIa8cz0Ajx7WO7Z5RqfgYg7ED1nRhA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -796,6 +808,10 @@ packages:
     resolution: {integrity: sha512-jFI8IQw4hczaL4ALINxqLEXQbWcNjoSkloa4IaufXCJr6QawJyw7tuRysRsrE8w2p/4gGaxKIt/hX3qz/IbD1A==}
     dependencies:
       clsx: 2.0.0
+    dev: false
+
+  /classnames/2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
     dev: false
 
   /client-only/0.0.1:
@@ -2891,6 +2907,11 @@ packages:
 
   /util-deprecate/1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+    dev: false
+
+  /uuid/9.0.0:
+    resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==}
+    hasBin: true
     dev: false
 
   /watchpack/2.4.0:
