@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Chat AI',
   description: 'Chatbot using React, Next, OpenAI AI and AI SDK',
+  icons: {
+    icon: '/favicon.png',
+  },
 }
 
 export default function RootLayout({
